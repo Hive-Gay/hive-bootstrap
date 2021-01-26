@@ -14,10 +14,10 @@ pipeline {
     stage('Build') {
       steps {
         script {
-          sh "npm scss"
+          sh "npm run scss"
         }
       }
     }
-    
+
   }
 }
