@@ -10,6 +10,14 @@ pipeline {
         }
       }
     }
+
+    stage('Build') {
+      steps {
+        script {
+          sh "npm scss"
+        }
+      }
+    }
     
   }
 }
