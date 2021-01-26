@@ -1,0 +1,16 @@
+{
+  "name": "hive-bootstrap",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "./node_modules/node-sass/bin/node-sass src/hive-bootstrap.scss dest/hive-bootstrap.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "node-sass": "^5.0.0"
+  }
+}

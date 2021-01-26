@@ -1,0 +1,73 @@
+@import "../node_modules/bootstrap/scss/functions";
+
+// Colors
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$blue:    #1b4db1;
+$indigo:  #4e13a0;
+$purple:  #860d86;
+$pink:    #f6b0be;
+$red:     #dc252b;
+$orange:  #d63307;
+$yellow:  #e8bc2a;
+$green:   #139613;
+$cyan:    #14c5c5;
+
+// Theme
+$primary: $yellow;
+$info: $indigo;
+$warning: $orange;
+
+$border-color: rgba($white, .2);
+
+// parts
+$accordion-border-color:        rgba($white, .125);
+$accordion-button-active-bg:    shade-color($primary, 10%);
+$accordion-button-active-color: tint-color($black, 10%);
+
+$alert-bg-scale: +80%;
+$alert-border-scale: -10%;
+
+$badge-color: $black;
+
+$body-bg:    $black;
+$body-color: $white;
+
+$card-bg:            $black;
+$card-border-color:  $border-color;
+
+$component-active-color: $black;
+
+$form-check-input-border: 1px solid rgba(255, 255, 255, .25);
+
+$input-bg: $black;
+$input-disabled-bg: #343a40;
+$input-group-addon-bg: #343a40;
+
+$list-group-bg:            $black;
+$list-group-border-color:  $border-color;
+$list-group-item-bg-scale: +80%;
+
+$table-bg-scale: +80%;
+
+$pagination-bg: $black;
+$pagination-disabled-bg: $black;
+
+$popover-bg:            $black;
+$popover-border-color:  $border-color;
+
+$progress-bg:         $gray-800;
+$progress-bar-color:  $black;
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
