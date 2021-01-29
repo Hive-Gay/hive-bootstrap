@@ -32,7 +32,7 @@ $border-color: rgba($white, .2);
 
 // parts
 $accordion-bg:                  rgba($black, .75);
-$accordion-border-color:        rgba($white, .125);
+$accordion-border-color:        $border-color;
 $accordion-button-active-bg:    shade-color($primary, 10%);
 $accordion-button-active-color: tint-color($black, 10%);
 
