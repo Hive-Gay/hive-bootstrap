@@ -19,5 +19,12 @@ pipeline {
       }
     }
 
+    stage('Upload') {
+      steps {
+        script {
+          sh "mc cp dest/hive-bootstrap.css hive/cdn/hive-bootstrap-${BRANCH_NAME}.css"
+        }
+      }
+    }
   }
 }
